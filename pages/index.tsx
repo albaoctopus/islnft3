@@ -13,7 +13,7 @@ import { useState } from "react";
 import styles from "../styles/Theme.module.css";
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = "0x322067594DBCE69A9a9711BC393440aA5e3Aaca1";
+const myNftDropContractAddress = "0x7d7406d27b358cfbA04D5eabeBa208Eb031bDbD2";
 
 const Home: NextPage = () => {
   const nftDrop = useNFTDrop(myNftDropContractAddress);
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
           {/* Amount claimed so far */}
           <div className={styles.mintCompletionArea}>
             <div className={styles.mintAreaLeft}>
-              <p>Total Minted</p>
+              <p>Total Minted ISL NFT</p>
             </div>
             <div className={styles.mintAreaRight}>
               {claimedSupply && unclaimedSupply ? (

@@ -2,7 +2,7 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/custom-minting-page";
+  const url = "https://islxxx.fun";
   return (
     <>
       <div
@@ -14,7 +14,7 @@ export default function ThirdwebGuideFooter() {
           width: 150,
           border: "1px solid #eaeaea",
           transform: "rotate(45deg)",
-          backgroundColor: " #262935",
+          backgroundColor: " #FFFFFF",
           cursor: "pointer",
         }}
         role="button"

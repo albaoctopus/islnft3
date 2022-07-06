@@ -13,7 +13,7 @@ import { useState } from "react";
 import styles from "../styles/Theme.module.css";
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = "0x7d7406d27b358cfbA04D5eabeBa208Eb031bDbD2";
+const myNftDropContractAddress = "0xafbA483D1D3447321fE60Cdc56F1F4d8B9475B19";
 
 const Home: NextPage = () => {
   const nftDrop = useNFTDrop(myNftDropContractAddress);
